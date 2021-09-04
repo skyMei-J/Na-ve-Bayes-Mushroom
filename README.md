@@ -1,4 +1,9 @@
 # Naive-Bayes-Mushroom
+
+## NO package-provided model, the algorithm is done from scratch.
+However, numerical computing and visualization packages are allowed, solely for data manipulation and visualization.
+use only: numpy, pandas, matplotlib
+
 2019. Oct. 22 (Tue)
 
 ## 1.Data Input
