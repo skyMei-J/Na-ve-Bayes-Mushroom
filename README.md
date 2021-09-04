@@ -44,21 +44,27 @@ For Iris dataset, whose features are all numerical, assume 𝑃(𝑋𝑖|𝑌) f
 where 𝜇,𝜎 are the mean and standard deviation of feature 𝑋𝑖 respectively, while label 𝑌 is determined.  
 
 ## 5.Train-Test-Split
-I implement two validation methods:
-a.Holdout validation with the ratio 7:3. 
+I implement two validation methods:  
 
-b.K-fold cross-validation with 𝐾=3. 
+### a.Holdout validation with the ratio 7:3. 
+
+### b.K-fold cross-validation with 𝐾=3. 
 
 And then obtain the final performance by averaging all folds’ performance.
 
-Show the performances using:
-a.Confusion matrix
-b.Accuracy
-c.Sensitivity(Recall)
-d.Precision
-## 6.Comparison & Conclusion
+Show the performances using:  
+
+### a.Confusion matrix  
+
+### b.Accuracy. 
+
+### c.Sensitivity(Recall). 
+
+### d.Precision. 
 ![Image text](https://github.com/skyMei-J/Image/blob/main/截圖%202021-09-04%20下午4.00.50.png)
 ![Image text](https://github.com/skyMei-J/Image/blob/main/截圖%202021-09-04%20下午4.02.42.png)
+## 6.Comparison & Conclusion
+
 ## Data
 
 ## 1. Mushroom dataset
