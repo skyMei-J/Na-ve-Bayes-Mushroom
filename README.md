@@ -1,6 +1,7 @@
 # Na-ve-Bayes-Mushroom
 
 ## 1.Data Input
+![Image text](https://github.com/skyMei-J/Image/blob/main/截圖%202021-09-04%20下午3.59.47.png)
 ## 2.Data Visualization
 For mushroom dataset:
 I show data distribution by value frequency of every feature.  
