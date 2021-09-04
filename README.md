@@ -1,4 +1,5 @@
-# Na-ve-Bayes-Mushroom
+# Naive-Bayes-Mushroom
+2019. Oct. 22 (Tue)
 
 ## 1.Data Input
 ![Image text](https://github.com/skyMei-J/Image/blob/main/截圖%202021-09-04%20下午3.59.47.png)
