@@ -1,7 +1,55 @@
 # Na-ve-Bayes-Mushroom
 
+## 1.Data Input
+## 2.Data Visualization
+For mushroom dataset:
+I show data distribution by value frequency of every feature.  
 
-Data
+For Iris dataset:
+I show the data distribution by average, standard deviation, and value frequency(binning might be needed) of every feature.  
+
+Also split data based on their labels (targets) and visualize each feature again.  
+
+## 3.Data Preprocessing
+Drop features with any missing value, and transform data format and shape, then shuffle data
+
+## 4.Model Construction
+I construct two Naïve Bayes classifiers for the two datasets WITHOUT any package-provided model.  
+Naïve Bayes divider 𝑀 in log-space:
+𝑀(𝐪)=argmax𝑌∈𝕋[log𝑃(𝑌)+∑𝑚𝑖=1log𝑃(𝑋𝑖|𝑌)]
+where 𝐪={𝑋1,𝑋2,...,𝑋𝑚} is a sample to be predicted, whose features are 𝑋1 to 𝑋𝑚. 𝕋 is the set of all possible labels.  
+
+For the mushroom dataset, whose features are all categorical, 𝑃(𝑋𝑖|𝑌) was computed with and without Laplace smoothing for result comparison.  
+
+Without Laplace smoothing:
+𝑃(𝑋𝑖|𝑌)=𝑁(𝑋𝑖|𝑌)𝑁(𝑌). 
+
+Laplace smoothing:
+𝑃(𝑋𝑖|𝑌)=𝑁(𝑋𝑖|𝑌)+𝑘𝑁(𝑌)+𝑘𝜏. 
+
+where 𝜏 is the number of all possible events of feature 𝑋𝑖. 
+
+For Iris dataset, whose features are all numerical, assume 𝑃(𝑋𝑖|𝑌) follows a 1D-Normal(Gaussian) distribution.  
+
+𝑃(𝑋𝑖|𝑌)=1𝜎2𝜋√𝑒−(𝑥−𝜇)22𝜎2
+where 𝜇,𝜎 are the mean and standard deviation of feature 𝑋𝑖 respectively, while label 𝑌 is determined.  
+
+## 5.Train-Test-Split
+I implement two validation methods:
+a.Holdout validation with the ratio 7:3. 
+
+b.K-fold cross-validation with 𝐾=3. 
+
+And then obtain the final performance by averaging all folds’ performance.
+
+Show the performances using:
+a.Confusion matrix
+b.Accuracy
+c.Sensitivity(Recall)
+d.Precision
+## 6.Comparison & Conclusion
+
+## Data
 
 ## 1. Mushroom dataset
 
