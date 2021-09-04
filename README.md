@@ -5,11 +5,19 @@
 ## 2.Data Visualization
 For mushroom dataset:
 I show data distribution by value frequency of every feature.  
+![Image text](https://github.com/skyMei-J/Image/blob/main/截圖%202021-09-04%20下午4.00.07.png)
+![Image text](https://github.com/skyMei-J/Image/blob/main/截圖%202021-09-04%20下午4.01.09.png)
+![Image text](https://github.com/skyMei-J/Image/blob/main/截圖%202021-09-04%20下午4.01.23.png)
+
 
 For Iris dataset:
 I show the data distribution by average, standard deviation, and value frequency(binning might be needed) of every feature.  
 
 Also split data based on their labels (targets) and visualize each feature again.  
+![Image text](https://github.com/skyMei-J/Image/blob/main/截圖%202021-09-04%20下午4.01.52.png)
+![Image text](https://github.com/skyMei-J/Image/blob/main/截圖%202021-09-04%20下午4.02.05.png)
+![Image text](https://github.com/skyMei-J/Image/blob/main/截圖%202021-09-04%20下午4.02.15.png)
+![Image text](https://github.com/skyMei-J/Image/blob/main/截圖%202021-09-04%20下午4.02.23.png)
 
 ## 3.Data Preprocessing
 Drop features with any missing value, and transform data format and shape, then shuffle data
@@ -49,7 +57,8 @@ b.Accuracy
 c.Sensitivity(Recall)
 d.Precision
 ## 6.Comparison & Conclusion
-
+![Image text](https://github.com/skyMei-J/Image/blob/main/截圖%202021-09-04%20下午4.00.50.png)
+![Image text](https://github.com/skyMei-J/Image/blob/main/截圖%202021-09-04%20下午4.02.42.png)
 ## Data
 
 ## 1. Mushroom dataset
